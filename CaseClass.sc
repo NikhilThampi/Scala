@@ -2,7 +2,7 @@ import java.awt
 
 case class Book(title:String,pages:Int)
 
-val b1 = Book("sherlock",200)
+val b1 = Book("sherlock homes",200)
 b1.title
 
 val b2 = b1.copy(pages = 500)
